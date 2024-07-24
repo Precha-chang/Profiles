@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:profiles/drawer.dart';
 import 'package:getwidget/getwidget.dart';
 
-
 class AboutPage extends StatefulWidget {
   const AboutPage({super.key});
 
@@ -11,7 +10,7 @@ class AboutPage extends StatefulWidget {
 }
 
 class _AboutPageState extends State<AboutPage> {
-  var items = List<String>.generate(20, (i) => 'Phisan $i');
+  var items = List<String>.generate(20, (i) => 'Precha $i');
 
   @override
   Widget build(BuildContext context) {
